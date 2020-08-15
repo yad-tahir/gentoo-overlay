@@ -6,7 +6,7 @@ inherit git-r3 toolchain-funcs
 
 DESCRIPTION="A fork of Suckless DWM, heavily tweaked and patched"
 
-HOMEPAGE="https://github.com/yad-tahir"
+HOMEPAGE="https://github.com/yad-tahir/dwm"
 EGIT_REPO_URI="https://github.com/yad-tahir/dwm.git"
 EGIT_COMMIT="patched-6.2.1"
 
