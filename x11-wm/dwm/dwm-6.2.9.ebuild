@@ -29,10 +29,10 @@ DEPEND="
 src_prepare() {
 	default
 
-	sed -i \
-		-e "s/ -Os / /" \
-		-e "/^\(LDFLAGS\|CFLAGS\|CPPFLAGS\)/{s| = | += |g;s|-s ||g}" \
-		config.mk || die
+	# sed -i \
+	#	-e "s/ -Os / /" \
+	#	-e "/^\(LDFLAGS\|CFLAGS\|CPPFLAGS\)/{s| = | += |g;s|-s ||g}" \
+	#	config.mk || die
 }
 
 src_compile() {
