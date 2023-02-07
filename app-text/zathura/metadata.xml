@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<name>Mikle Kolyada</name>
-		<email>zlogene@gentoo.org</email>
+		<name>Yad Tahir</name>
+		<email>yad@ieee.org</email>
 	</maintainer>
 	<use>
+		<flag name="doc">Add extra documentation (man files)</flag>
 		<flag name="synctex">Use libsynctex to get latex codeline from pdf</flag>
 	</use>
 	<upstream>
@@ -17,8 +18,13 @@
 			<email>sebastian+dev@ramacher.at</email>
 			<name>Sebastian Ramacher</name>
 		</maintainer>
+		<maintainer status="active">
+			<email>yad@ieee.org</email>
+			<name>Yad Tahir</name>
+		</maintainer>
 		<changelog>http://pwmt.org/projects/zathura/download/</changelog>
 		<doc lang="en">http://pwmt.org/projects/zathura/</doc>
 		<bugs-to>http://bugs.pwmt.org/</bugs-to>
+		<remote-id type="github">yad-tahir/zathura</remote-id>
 	</upstream>
 </pkgmetadata>
