@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=media-libs/fontconfig x11-libs/libX11 x11-libs/libXft xinerama? ( x11-libs/libXinerama ) xinerama? ( x11-base/xorg-proto )
+DESCRIPTION=A fork of Suckless DWM, heavily tweaked and patched
+EAPI=7
+HOMEPAGE=https://github.com/yad-tahir/dwm
+INHERIT=git-r3 toolchain-funcs
+IUSE=xinerama
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/fontconfig x11-libs/libX11 x11-libs/libXft xinerama? ( x11-libs/libXinerama )
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=2fed6e42b4f1ab17a62f8a907335c49f
